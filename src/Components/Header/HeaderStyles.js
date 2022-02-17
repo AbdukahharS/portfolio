@@ -21,16 +21,13 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
-  }
 `
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    display: none;
   }
 `
 export const Div3 = styled.div`
@@ -39,8 +36,17 @@ export const Div3 = styled.div`
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
+    display: none;
+  }
+`
+
+export const Div4 = styled.div`
+  grid-area: 1 / 5 / 2 / 6;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
   }
 `
 
@@ -139,5 +145,20 @@ export const LogoText = styled.span`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    font-size: 1.8rem;
+  }
+`
+
+export const MenuIcon = styled.svg`
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 1.5;
+  cursor: pointer;
+  display: none;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: inline-block;
   }
 `

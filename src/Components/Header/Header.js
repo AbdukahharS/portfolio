@@ -7,11 +7,13 @@ import {
   Div1,
   Div2,
   Div3,
+  Div4,
   NavLink,
   SocialIcons,
   LogoImg,
   LogoText,
 } from './HeaderStyles'
+import MenuButton from './MenuButton'
 
 const Header = () => (
   <Container>
@@ -49,6 +51,9 @@ const Header = () => (
         <FaTelegramPlane size='3rem' />
       </SocialIcons>
     </Div3>
+    <Div4>
+      <MenuButton />
+    </Div4>
   </Container>
 )
 
