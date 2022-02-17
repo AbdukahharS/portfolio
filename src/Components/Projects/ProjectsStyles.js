@@ -7,28 +7,15 @@ export const Img = styled.img`
   overflow: hidden;
 `
 
-export const GridContainer = styled.section`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  padding: 3rem;
-  place-items: center;
-  column-gap: 2rem;
-  row-gap: 3rem;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    padding-bottom: 0;
-  }
-`
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
-  background: ${(props) => props.theme.colors.background1};
+  margin: 0 auto;
+  background: ${(props) => props.theme.colors.background1}da;
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
+    width: 90%;
   }
 `
 export const TitleContent = styled.div`
@@ -71,7 +58,7 @@ export const CardInfo = styled.p`
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.3rem;
+    padding: 0 3rem;
   }
 `
 
@@ -90,6 +77,7 @@ export const ExternalLinks = styled.a`
   background: #6b3030;
   border-radius: 15px;
   transition: 0.5s;
+  margin-bottom: 1.4rem;
   &:hover {
     background: #801414;
   }

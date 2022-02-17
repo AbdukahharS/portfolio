@@ -10,33 +10,23 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'E-Commerce',
+    title: 'Agricultural Statistics',
     description:
       "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    image: 'agricultural-statistics.png',
+    tags: ['Apex Chart', 'JavaScript'],
+    source: 'https://github.com/KahhorovSh04/agricultural-statistics',
+    visit: 'https://agricultural-statistics.netlify.app/',
     id: 1,
   },
   {
-    title: 'WebRTC App',
+    title: 'FreshGoods',
     description:
       "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: '3.jpg',
-    tags: ['React', 'WebRTC'],
+    image: 'freshgoods.png',
+    tags: ['HTML', 'Css', 'JavaScript'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2,
-  },
-  {
-    title: 'Unichat',
-    description:
-      'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
-    image: '4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
   },
 ]

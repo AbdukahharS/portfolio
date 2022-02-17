@@ -8,7 +8,6 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
-
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -114,6 +113,9 @@ export const SocialIcons = styled.a`
   color: white;
   border-radius: 50px;
   padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   &:hover {
     background-color: #212d45;
     transform: scale(1.2);

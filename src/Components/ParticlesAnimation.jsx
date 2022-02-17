@@ -30,7 +30,7 @@ const ParticlesAnimation = () => {
               quantity: 1,
             },
             repulse: {
-              distance: 200,
+              distance: 150,
               duration: 0.4,
             },
           },
@@ -54,15 +54,15 @@ const ParticlesAnimation = () => {
             enable: true,
             outMode: 'bounce',
             random: false,
-            speed: 2,
+            speed: 1,
             straight: false,
           },
           number: {
             density: {
               enable: true,
-              area: 800,
+              area: 500,
             },
-            value: 60,
+            value: 100,
           },
           opacity: {
             value: 0.5,
