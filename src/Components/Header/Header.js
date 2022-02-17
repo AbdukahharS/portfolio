@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import React from 'react'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { FaTelegramPlane } from 'react-icons/fa'
@@ -17,28 +16,23 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href='/'>
-        <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
-          <LogoImg src='/images/logo.png' alt='Logo' />
-          <LogoText>Shahzod Abdukahhar</LogoText>
-        </a>
-      </Link>
+      <a
+        href='/'
+        style={{ display: 'flex', alignItems: 'center', color: 'white' }}
+      >
+        <LogoImg src={require('../../Images/logo.png')} alt='Logo' />
+        <LogoText>Shahzod Abdukahhar</LogoText>
+      </a>
     </Div1>
     <Div2>
       <li>
-        <Link href='#projects'>
-          <NavLink>Projects</NavLink>
-        </Link>
+        <NavLink href='#projects'>Projects</NavLink>
       </li>
       <li>
-        <Link href='#tech'>
-          <NavLink>Technologies</NavLink>
-        </Link>
+        <NavLink href='#tech'>Technologies</NavLink>
       </li>
       <li>
-        <Link href='#about'>
-          <NavLink>About</NavLink>
-        </Link>
+        <NavLink href='#about'>About</NavLink>
       </li>
     </Div2>
     <Div3>

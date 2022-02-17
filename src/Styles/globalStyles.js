@@ -32,6 +32,10 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
+  #main * {
+    z-index: 2;
+  }
+
 `
 
 export default GlobalStyles
