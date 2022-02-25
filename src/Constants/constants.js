@@ -1,4 +1,4 @@
-﻿export const projects = [
+export const projects = [
   {
     title: 'Founders Language School',
     description:
