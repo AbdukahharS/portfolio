@@ -7,13 +7,11 @@ import {
   Div1,
   Div2,
   Div3,
-  Div4,
   NavLink,
   SocialIcons,
   LogoImg,
   LogoText,
 } from './HeaderStyles'
-import MenuButton from './MenuButton'
 
 const Header = () => (
   <Container>
@@ -33,9 +31,6 @@ const Header = () => (
       <li>
         <NavLink href='#tech'>Technologies</NavLink>
       </li>
-      <li>
-        <NavLink href='#about'>About</NavLink>
-      </li>
     </Div2>
     <Div3>
       <SocialIcons href='https://github.com/KahhorovSh04' target='_blank'>
@@ -51,9 +46,6 @@ const Header = () => (
         <FaTelegramPlane size='3rem' />
       </SocialIcons>
     </Div3>
-    <Div4>
-      <MenuButton />
-    </Div4>
   </Container>
 )
 

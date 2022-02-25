@@ -1,4 +1,4 @@
-export const projects = [
+﻿export const projects = [
   {
     title: 'Founders Language School',
     description:
@@ -14,7 +14,7 @@ export const projects = [
     description:
       "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
     image: 'agricultural-statistics.png',
-    tags: ['Apex Chart', 'JavaScript'],
+    tags: ['HTML', 'Css', 'Apex Chart', 'JavaScript'],
     source: 'https://github.com/KahhorovSh04/agricultural-statistics',
     visit: 'https://agricultural-statistics.netlify.app/',
     id: 1,
@@ -25,8 +25,18 @@ export const projects = [
       "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
     image: 'freshgoods.png',
     tags: ['HTML', 'Css', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/KahhorovSh04/freshgoods',
+    visit: 'https://freshgoods-shop.netlify.app/',
+    id: 2,
+  },
+  {
+    title: 'Digitization Center',
+    description:
+      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    image: 'digitization.png',
+    tags: ['React', 'Styled-Components'],
+    source: 'https://github.com/KahhorovSh04/digitalization-center',
+    visit: 'https://digitalization-center.netlify.app/',
     id: 2,
   },
 ]

@@ -1,24 +1,23 @@
+// Dependencies
 import { React } from 'react'
-import Theme from './Styles/theme'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ParticlesAnimation from './Components/ParticlesAnimation'
-import Hero from './Components/Hero/Hero'
-import Projects from './Components/Projects/Projects'
-import Technologies from './Components/Technologies/Technologies'
-import { Layout } from './Layout/Layout'
-import { Section } from './Styles/GlobalComponents'
+import Theme from './Styles/theme'
+// Pages
+import Home from './Pages/Home'
+import Projects from './Pages/Projects'
 
 function App() {
   return (
-    <Theme>
-      <Layout>
-        <Section grid>
-          <Hero />
-        </Section>
-        <Projects />
-        <Technologies />
-      </Layout>
-      <ParticlesAnimation />
-    </Theme>
+    <Router>
+      <Theme>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/projects' element={<Projects />} />
+        </Routes>
+        <ParticlesAnimation />
+      </Theme>
+    </Router>
   )
 }
 

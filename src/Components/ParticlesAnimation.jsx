@@ -27,10 +27,10 @@ const ParticlesAnimation = () => {
               size: 40,
             },
             push: {
-              quantity: 1,
+              quantity: 2,
             },
             repulse: {
-              distance: 150,
+              distance: 120,
               duration: 0.4,
             },
           },

@@ -35,19 +35,6 @@ export const Div3 = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: none;
-  }
-`
-
-export const Div4 = styled.div`
-  grid-area: 1 / 5 / 2 / 6;
-  justify-content: center;
-  align-items: center;
-  display: none;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
-  }
 `
 
 // Navigation Links
@@ -146,19 +133,5 @@ export const LogoText = styled.span`
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
     font-size: 1.8rem;
-  }
-`
-
-export const MenuIcon = styled.svg`
-  fill-rule: evenodd;
-  clip-rule: evenodd;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 1.5;
-  cursor: pointer;
-  display: none;
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: inline-block;
   }
 `

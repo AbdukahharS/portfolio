@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "author": "Shakhzodbek Kakhkhorov",
-  "license": "MIT",
   "description": "This is Shakhzodbek's portfolio website",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",

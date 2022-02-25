@@ -13,7 +13,7 @@ export const BlogCard = styled.div`
   text-align: center;
   width: 400px;
   margin: 0 auto;
-  background: ${(props) => props.theme.colors.background1}da;
+  background: ${(props) => props.theme.colors.background1}dd;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 90%;
   }
