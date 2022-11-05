@@ -2,17 +2,17 @@ export const projects = [
   {
     title: 'Founders Language School',
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      'This project belongs to the learning center called "Founders Langauge School". At first, the back-end was developed on Node.JS, but in the second version, Node was replaced with firebase. The website contains a Home page, Library page, Events page to register for events that the LC planned, and Admin Panel section.',
     image: 'founders.png',
-    tags: ['Express', 'React', 'Node', 'Material-UI'],
-    source: 'https://google.com',
+    tags: ['Material-UI', 'React', 'Firebase'],
+    source: 'https://github.com/KahhorovSh04/founders-mui',
     visit: 'https://founders.uz',
     id: 0,
   },
   {
     title: 'Agricultural Statistics',
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      'I developed the project for the Ministry of Agriculture of the Republic of Uzbekistan. The project is a portion of the whole app that I cannot show, and it presents agricultural statistics.',
     image: 'agricultural-statistics.png',
     tags: ['HTML', 'Css', 'Apex Chart', 'JavaScript'],
     source: 'https://github.com/KahhorovSh04/agricultural-statistics',
@@ -22,21 +22,11 @@ export const projects = [
   {
     title: 'FreshGoods',
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      'This is a landing page website for a grocery store. It is not complicated, but the simple design and shadow effect are great.',
     image: 'freshgoods.png',
     tags: ['HTML', 'Css', 'JavaScript'],
     source: 'https://github.com/KahhorovSh04/freshgoods',
     visit: 'https://freshgoods-shop.netlify.app/',
-    id: 2,
-  },
-  {
-    title: 'Digitization Center',
-    description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: 'digitization.png',
-    tags: ['React', 'Styled-Components'],
-    source: 'https://github.com/KahhorovSh04/digitalization-center',
-    visit: 'https://digitalization-center.netlify.app/',
     id: 2,
   },
 ]
