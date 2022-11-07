@@ -29,4 +29,24 @@ export const projects = [
     visit: 'https://freshgoods-shop.netlify.app/',
     id: 2,
   },
+  {
+    title: 'Reachat',
+    description:
+      'Using React, Sass and firebase, I developed real-time chat app. This is very basic app and for individual chats only. Sending text and photo message is available',
+    image: 'reachat.png',
+    tags: ['React', 'Sass', 'Firebase'],
+    source: 'https://github.com/KahhorovSh04/reachat',
+    visit: 'https://rea-chat.netlify.app',
+    id: 3,
+  },
+  {
+    title: 'Hotel BT',
+    description:
+      'This is one of my fist projects. Built with only HTML, CSS and Font Awesome Icons. Nothing special here, just the website that gives information about a hotel.',
+    image: 'hbt.png',
+    tags: ['HTML', 'CSS', 'Font Awesome'],
+    source: 'https://github.com/KahhorovSh04/hbt',
+    visit: 'https://h-bt.netlify.app',
+    id: 4,
+  },
 ]
