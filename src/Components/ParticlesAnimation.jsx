@@ -1,4 +1,3 @@
-import React from 'react'
 import Particles from 'react-tsparticles'
 
 const ParticlesAnimation = () => {
@@ -47,7 +46,7 @@ const ParticlesAnimation = () => {
             width: 1,
           },
           collisions: {
-            enable: false,
+            enable: true,
           },
           move: {
             direction: 'none',

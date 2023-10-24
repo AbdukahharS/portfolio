@@ -21,7 +21,7 @@ const Header = () => (
         style={{ display: 'flex', alignItems: 'center', color: 'white' }}
       >
         <LogoImg src={require('../../Images/logo.png')} alt='Logo' />
-        <LogoText>Shahzad Abdukahhar</LogoText>
+        <LogoText>Shahzod Abdukahhar</LogoText>
       </a>
     </Div1>
     <Div2>

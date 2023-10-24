@@ -6,6 +6,7 @@ import {
   SectionTitle,
 } from '../../Styles/GlobalComponents'
 import Button from '../../Styles/GlobalComponents/Button'
+import { SecondaryBtn } from '../../Styles/GlobalComponents'
 import { LeftSection } from './HeroStyles'
 
 const Hero = (props) => (
@@ -14,15 +15,18 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Welcome To <br />
-          My Personal Portfolio
+          My Personal Website
         </SectionTitle>
         <SectionText>
-          I am Shahzad Abdukahhar (Shakhzodbek Kakhkhorov) and I'm from
+          I am Shahzod Abdukahhar (Shakhzodbek Kakhkhorov) and I'm from
           Surkhandarya, Uzbekistan. I am a computer science student at Inti
           International College in Malaysia. I can do Full-Stack Web
           Developments but I am better at Front-End
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <div>
+          <Button onClick={props.handleClick}>Learn More</Button>
+          <SecondaryBtn>Download CV</SecondaryBtn>
+        </div>
       </LeftSection>
     </Section>
   </>
