@@ -33,16 +33,16 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com/KahhorovSh04' target='_blank'>
+      <SocialIcons href='https://github.com/AbdukahharS/' target='_blank'>
         <AiFillGithub size='3rem' />
       </SocialIcons>
       <SocialIcons
-        href='https://www.linkedin.com/in/shakhzad-kakhkhorov-8628b7202/'
+        href='https://www.linkedin.com/in/shakhzodbek-kakhkhorov-217ab9265/'
         target='_blank'
       >
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://t.me/shakhzodbek_kakhkhorov' target='_blank'>
+      <SocialIcons href='https://t.me/shahzod_qaxxorov' target='_blank'>
         <FaTelegramPlane size='3rem' />
       </SocialIcons>
     </Div3>
