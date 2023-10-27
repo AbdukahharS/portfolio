@@ -7,9 +7,9 @@ import {
 } from '../../Styles/GlobalComponents'
 import Button from '../../Styles/GlobalComponents/Button'
 import { SecondaryBtn } from '../../Styles/GlobalComponents'
-import { LeftSection } from './HeroStyles'
+import { LeftSection, SectionButtons } from './HeroStyles'
 
-const Hero = (props) => (
+const Hero = () => (
   <>
     <Section row nopadding>
       <LeftSection>
@@ -23,10 +23,27 @@ const Hero = (props) => (
           International College in Malaysia. I can do Full-Stack Web
           Developments but I am better at Front-End
         </SectionText>
-        <div>
-          <Button onClick={props.handleClick}>Learn More</Button>
-          <SecondaryBtn>Download CV</SecondaryBtn>
-        </div>
+        <SectionButtons>
+          <Button>
+            <a
+              href='https://t.me/an_unchosen_one'
+              rel='noreferrer'
+              target='_blank'
+            >
+              Learn More
+            </a>
+          </Button>
+          <SecondaryBtn hero>
+            <a
+              href='/files/Resume.pdf'
+              download
+              rel='noreferrer'
+              target='_blank'
+            >
+              Download CV
+            </a>
+          </SecondaryBtn>
+        </SectionButtons>
       </LeftSection>
     </Section>
   </>

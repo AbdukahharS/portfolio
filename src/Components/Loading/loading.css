@@ -19,7 +19,7 @@
   top: 50%;
   left: 50%;
   transform: rotate(0deg) translate(0, -100px) rotate(0deg);
-  animation: circle 3s ease-in-out 2;
+  animation: circle 3s ease-in-out 1;
   transition: 2s ease-in-out;
 }
 

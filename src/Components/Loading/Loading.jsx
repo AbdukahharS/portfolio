@@ -34,7 +34,7 @@ const Loading = () => {
     const closeLoader = setTimeout(() => {
       contRef.current.style.opacity = 0
       contRef.current.style.zIndex = -50
-    }, 10500)
+    }, 7500)
 
     const timer = setTimeout(() => {
       // Update the styles directly without re-rendering
@@ -47,7 +47,7 @@ const Loading = () => {
       })
 
       return () => clearTimeout(closeLoader)
-    }, 9000)
+    }, 6000)
 
     return () => clearTimeout(timer)
   }, [])
