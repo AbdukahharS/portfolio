@@ -101,7 +101,7 @@ export const projects = [
     title: 'Portfolio Website',
     description:
       'Explore wisdom, ignite minds: Unveil, connect, and inspire with Quotopia today!',
-    image: 'bilalibntuygun.png',
+    image: 'portfolio-doe.png',
     tags: ['HTML', 'CSS'],
     source: 'https://github.com/AbdukahharS/john-doe-portfolio',
     visit: 'https://portfolio-doe.netlify.app/',
