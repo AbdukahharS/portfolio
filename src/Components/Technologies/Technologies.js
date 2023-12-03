@@ -17,11 +17,7 @@ const Technologies = ({ skills, setSkills }) => {
       setSkills([...skills, str])
     } else {
       setSkills((skils) => {
-        let upd = skils.filter((skil, i) => {
-          if (i !== ind) {
-            return skil
-          }
-        })
+        let upd = skils.filter((skil, i) => i !== ind)
         return upd
       })
     }
