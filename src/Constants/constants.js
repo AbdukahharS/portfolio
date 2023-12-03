@@ -4,7 +4,7 @@ export const projects = [
     description:
       'This project belongs to the learning center called "Founders Langauge School". At first, the back-end was developed on Node.JS, but in the second version, Node was replaced with firebase. The website contains a Home page, Library page, Events page to register for events that the LC planned, and Admin Panel section.',
     image: 'founders.png',
-    tags: ['Material-UI', 'React', 'Firebase'],
+    tags: ['Material UI', 'React JS', 'Firebase'],
     source: 'https://github.com/AbdukahharS/founders-mui',
     visit: 'https://founders.uz',
     id: 0,
@@ -32,9 +32,9 @@ export const projects = [
   {
     title: 'Reachat',
     description:
-      'Using React, Sass and firebase, I developed real-time chat app. This is very basic app and for individual chats only. Sending text and photo message is available',
+      'Using React JS, Sass and firebase, I developed real-time chat app. This is very basic app and for individual chats only. Sending text and photo message is available',
     image: 'reachat.png',
-    tags: ['React', 'Sass', 'Firebase'],
+    tags: ['React JS', 'Sass', 'Firebase'],
     source: 'https://github.com/AbdukahharS/reachat',
     visit: 'https://rea-chat.netlify.app',
     id: 3,
@@ -54,7 +54,7 @@ export const projects = [
     description:
       'The Nodirah-Sultan Travel Agency website is an exquisite digital masterpiece that encapsulates the spirit of exploration and wanderlust. Crafted by a Computer Science student from Uzbekistan, this website is a testament to the fusion of technology and travel, offering a user experience like no other.',
     image: 'nstour.png',
-    tags: ['Payme', 'React', 'Styled Components'],
+    tags: ['Payme', 'React JS', 'Styled Components'],
     source: 'https://github.com/AbdukahharS/tour',
     visit: 'https://nstour.uz',
     id: 5,
@@ -74,9 +74,26 @@ export const projects = [
     description:
       'Explore wisdom, ignite minds: Unveil, connect, and inspire with Quotopia today!',
     image: 'quotopia.png',
-    tags: ['Next JS', 'next-auth', 'Tailwind CSS'],
+    tags: ['Next JS', 'next-auth', 'Tailwind CSS', 'MongoDB', 'Mongoose'],
     source: 'https://github.com/AbdukahharS/quotopia',
     visit: 'https://quotopiaa.vercel.app/',
     id: 7,
   },
+]
+
+export const technologies = [
+  'React JS',
+  'Next JS',
+  'JavaScript',
+  'Material UI',
+  'Figma',
+  'Node JS',
+  'Express JS',
+  'MongoDB',
+  'Mongoose',
+  'next-auth',
+  'Tailwind CSS',
+  'Styled Components',
+  'Payme',
+  'Firebase',
 ]

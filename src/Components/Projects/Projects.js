@@ -1,50 +1,50 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
-import {
-  BlogCard,
-  CardInfo,
-  ExternalLinks,
-  HeaderThree,
-  Hr,
-  Tag,
-  TagList,
-  TitleContent,
-  UtilityList,
-  Img,
-} from './ProjectsStyles'
+import { Container, Card } from './ProjectsStyles'
 import {
   Section,
   SectionDivider,
   SectionTitle,
 } from '../../Styles/GlobalComponents'
-import { projects } from '../../Constants/constants'
-import Carousel from 'react-multi-carousel'
+import { projects as data } from '../../Constants/constants'
 import 'react-multi-carousel/lib/styles.css'
 
-const responsive = {
-  superLargeDesktop: {
-    breakpoint: { max: 4000, min: 3000 },
-    items: 3,
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 2,
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2,
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1,
-  },
+const Projects = ({ skills }) => {
+  const [projects, setProjects] = useState(data)
+
+  useEffect(() => {
+    if (skills.length === 0) {
+      setProjects(data)
+    } else {
+      const arr = []
+      skills.forEach((skill) => {
+        data.forEach((el) => {
+          if (el.tags.includes(skill) && !arr.includes(el)) {
+            arr.push(el)
+          }
+        })
+      })
+      setProjects(arr)
+    }
+  }, [skills])
+
+  return (
+    <Section nopadding id='projects'>
+      <SectionDivider />
+      <SectionTitle main>Projects</SectionTitle>
+      <Container>
+        {projects.map((project, i) => (
+          <Card key={i}>{project.title}</Card>
+        ))}
+      </Container>
+      <SectionDivider colorAlt />
+    </Section>
+  )
 }
 
-const Projects = () => (
-  <Section nopadding id='projects'>
-    <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
-    <Carousel
+export default Projects
+
+/*<Carousel
       responsive={responsive}
       draggable={true}
       swipable={true}
@@ -76,8 +76,4 @@ const Projects = () => (
           </BlogCard>
         )
       })}
-    </Carousel>
-  </Section>
-)
-
-export default Projects
+    </Carousel>*/

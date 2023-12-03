@@ -5,7 +5,6 @@ import ParticlesAnimation from './Components/ParticlesAnimation'
 import Theme from './Styles/theme'
 // Pages
 import Home from './Pages/Home'
-import Projects from './Pages/Projects'
 import Loading from './Components/Loading/Loading'
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
       <Theme>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/projects' element={<Projects />} />
         </Routes>
         <div>
           <Loading />
