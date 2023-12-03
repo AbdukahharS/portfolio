@@ -87,6 +87,26 @@ export const projects = [
     visit: 'https://quotopiaa.vercel.app/',
     id: 7,
   },
+  {
+    title: 'BilalIbnTuygun Portfolio',
+    description:
+      'Explore wisdom, ignite minds: Unveil, connect, and inspire with Quotopia today!',
+    image: 'bilalibntuygun.png',
+    tags: ['Styled Components', 'React JS'],
+    source: 'https://github.com/AbdukahharS/bilalibntuygun',
+    visit: 'https://bilalibntuygun.uz/',
+    id: 8,
+  },
+  {
+    title: 'Portfolio Website',
+    description:
+      'Explore wisdom, ignite minds: Unveil, connect, and inspire with Quotopia today!',
+    image: 'bilalibntuygun.png',
+    tags: ['HTML', 'CSS'],
+    source: 'https://github.com/AbdukahharS/john-doe-portfolio',
+    visit: 'https://portfolio-doe.netlify.app/',
+    id: 9,
+  },
 ]
 
 export const technologies = [
@@ -104,4 +124,6 @@ export const technologies = [
   'Styled Components',
   'Payme',
   'Firebase',
+  'HTML',
+  'CSS',
 ]
