@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import Masonry from 'react-responsive-masonry'
 
-import { Container, Card } from './ProjectsStyles'
+import { Card, CardImg, CardTitle, Content, Link } from './ProjectsStyles'
 import {
   Section,
   SectionDivider,
@@ -32,11 +33,24 @@ const Projects = ({ skills }) => {
     <Section nopadding id='projects'>
       <SectionDivider />
       <SectionTitle main>Projects</SectionTitle>
-      <Container>
+      <Masonry columnsCount={2} gutter='6rem'>
         {projects.map((project, i) => (
-          <Card key={i}>{project.title}</Card>
+          <Card key={i}>
+            <CardImg
+              alt={project.title}
+              src={require(`../../Images/${project.image}`)}
+            />
+            <CardTitle>{project.title}</CardTitle>
+            <Content>
+              <Link href={project.source}>Source</Link>
+              <Link href={project.visit}>Visit the project</Link>
+            </Content>
+          </Card>
         ))}
-      </Container>
+      </Masonry>
+      <br />
+      <br />
+      <br />
       <SectionDivider colorAlt />
     </Section>
   )

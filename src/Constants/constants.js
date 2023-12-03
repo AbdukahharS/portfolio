@@ -74,7 +74,15 @@ export const projects = [
     description:
       'Explore wisdom, ignite minds: Unveil, connect, and inspire with Quotopia today!',
     image: 'quotopia.png',
-    tags: ['Next JS', 'next-auth', 'Tailwind CSS', 'MongoDB', 'Mongoose'],
+    tags: [
+      'Next JS',
+      'next-auth',
+      'Tailwind CSS',
+      'MongoDB',
+      'Mongoose',
+      'Node JS',
+      'Express JS',
+    ],
     source: 'https://github.com/AbdukahharS/quotopia',
     visit: 'https://quotopiaa.vercel.app/',
     id: 7,
